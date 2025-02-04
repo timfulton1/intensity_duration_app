@@ -57,14 +57,7 @@ ui <- page_navbar(
               <br><br>
               For the most accurate estimation of Critical Power and W Prime, choose performances lasting 
               between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes would provide a better  
-              estimation than durations of 4, 6, and 8 minutes.
-              <br><br>
-              Data are modeled by the hyperbolic equation"),
-              
-              withMathJax("$$t = \\frac{W'}{P - CP}$$"),  
-              
-              HTML("where <code>t</code> is the performance time (s), <code>W'</code> is the curvature constant (Joules), <code>P</code> is the performance power (W), and
-              <code>CP</code> is the Critical Power (W).")
+              estimation than durations of 4, 6, and 8 minutes.")
             ),
             class = "d-flex justify-content-between"
           ),
@@ -154,14 +147,7 @@ ui <- page_navbar(
               <br><br>
               For the most accurate estimation of Critical Speed and D Prime, choose performances lasting 
               between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes would provide a better  
-              estimation than durations of 4, 6, and 8 minutes.
-              <br><br>
-              Data are modeled by the hyperbolic equation"),
-              
-              withMathJax("$$t = \\frac{D'}{S - CS}$$"),  
-              
-              HTML("where <code>t</code> is the performance time (s), <code>D'</code> is the curvature constant (m), <code>S</code> is the average speed (m/s), and
-              <code>CS</code> is the critical speed (m/s).")
+              estimation than durations of 4, 6, and 8 minutes.")
             ),
             class = "d-flex justify-content-between"
           ),
