@@ -5,7 +5,8 @@ This repo contains the code used to build the analysis application.
 Visit the app here:
 
 
-image
+<img width="1363" alt="intensity_duration_app" src="https://github.com/user-attachments/assets/b05f0efa-50cf-4f64-bf81-d4ab7f261cec" />
+
 
 ## Background
 
