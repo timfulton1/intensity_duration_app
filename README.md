@@ -17,7 +17,7 @@ I developed this application to make it easy for cyclists to estimate their crit
 The data are fit using a two parameter hyperbolic model according to the equation below:
 
 $$
-t = D' \ P - CP
+t = D' / P - CP
 $$
 
 where `t` is the performance time (s), `W'` is the curvature constant (Joules), `P`is the performance power (W), and `CP` is the Critical Power (W). 
