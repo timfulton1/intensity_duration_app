@@ -9,9 +9,7 @@ Visit the app here:
 
 ## Background
 
-I developed this application to make it easy for cyclists to estimate their critical power (CP) and runners to estimate their critical speed (CS).
-
-The sustainable duration of exercise is dependent upon the intensity (i.e., power or speed) at which the exercise is performed. This fundamental concept is known as the intensity-duration relationship, and for exercise durations of ~2–40 minutes, can be modeled by a two-parameter hyperbolic equation (see methods below). Critical power (or speed) is the highest power that can be sustained primarily by aerobic metabolism while still achieving a metabolic steady state. Critical power (or speed) is also a metabolic threshold such that exercising at powers (or speeds) above CP will cause increased reliance on anaerobic metabolism and a greater accumulation of fatigue-inducing metabolites. For a given power above CP, the time until task failure is dependent on the magnitude of W', suggesting that W' can be viewed as a fatigue buffer (or fatigue constant). 
+The sustainable duration of exercise is dependent upon the intensity (i.e., power or speed) at which the exercise is performed. This fundamental concept is known as the intensity-duration relationship, and for exercise durations of ~2–40 minutes, can be modeled by a two-parameter hyperbolic equation (see methods below). The critical intensity (power or speed) is the highest intensity that can be sustained primarily by aerobic metabolism while still achieving a metabolic steady state. The critical intensity is also a metabolic threshold such that exercising at intensities (powers or speeds) above the threshold will cause increased reliance on anaerobic metabolism and a greater accumulation of fatigue-inducing metabolites. For a given intensity above the threshold, the time until task failure is dependent on the magnitude of the curvature constant (W' or D'), suggesting that curvature constant can be viewed as a fatigue buffer (or fatigue constant). 
 
 
 ## Methods
