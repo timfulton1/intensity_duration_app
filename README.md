@@ -4,8 +4,7 @@ This repo contains the code used to build the analysis application.
 
 Visit the app here:
 
-
-<img width="1363" alt="intensity_duration_app" src="https://github.com/user-attachments/assets/b05f0efa-50cf-4f64-bf81-d4ab7f261cec" />
+<img width="1363" alt="intensity_duration_app" src="https://github.com/user-attachments/assets/c4f35b0a-7335-4fcd-94f9-d9c356d3ac7d" />
 
 
 ## Background
@@ -44,7 +43,7 @@ where `t` is the performance time (s), `D'` is the curvature constant (m), `S` i
 Two additional variables that are calculated in the application are:
 
 1. **Mile** - Estimated one mile performance.
-2. **5,000m** - Estimated 5K performance.
+2. **5,000 m** - Estimated 5K performance.
 
 
 ## Usage
