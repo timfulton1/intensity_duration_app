@@ -1,18 +1,27 @@
+## ======================================================== ##
+
 # Purpose: UI and Server for intensity-duration shiny app
 # Author: Tim Fulton
 # Date: January 25, 2025
 
-
-# Instructions
-# About Section with modeling information like the HHb App
+## ======================================================== ##
 
 # Source Scripts ----------------------------------------------------------
 source("utils.R")
 
 
+# tags ----------------------------------------------------------
+link_github <- tags$a(
+  href = "https://github.com/timfulton1/intensity_duration_app",
+  target = "_blank",  # Open in a new tab
+  icon("github"),     # Use Font Awesome GitHub icon
+  style = "color: white; font-size: 20px;"
+)
+
+
 # UI ----------------------------------------------------------
 ui <- page_navbar(
-  tags$head(
+  header = tags$head(
     tags$style(HTML("
       .form-control:focus {
       border-color: #A0B3B7 !important; 
@@ -39,11 +48,11 @@ ui <- page_navbar(
           card_header(
             "Performance Data",
             popover(
-              bs_icon("question-circle", size = "1.3em", class = "info-icon"),
+              bs_icon("question-circle", size = "1.3em"),
               title = "Instructions",
               HTML("Enter power and duration data for at least 3 performances. 
               <br><br>
-              Each performance can be either a time to exhaustion test at a constant power or a fixed distance time trial (e.g., 4k). 
+              Each performance can be either a time to exhaustion test at a constant power or a fixed distance time trial (e.g., 4 km). 
               If using a fixed distance time trial, power may vary throughout the effort, so use the average power over the entire distance.
               <br><br>
               For the most accurate estimation of Critical Power and W Prime, choose performances lasting 
@@ -54,7 +63,7 @@ ui <- page_navbar(
               
               withMathJax("$$t = \\frac{W'}{P - CP}$$"),  
               
-              HTML("where <code>t</code> is the performance time (s), <code>W'</code> is the curvature constant (Joules), <code>P</code> is the power (W), and
+              HTML("where <code>t</code> is the performance time (s), <code>W'</code> is the curvature constant (Joules), <code>P</code> is the performance power (W), and
               <code>CP</code> is the Critical Power (W).")
             ),
             class = "d-flex justify-content-between"
@@ -148,9 +157,9 @@ ui <- page_navbar(
               estimation than durations of 4, 6, and 8 minutes.
               <br><br>
               Data are modeled by the hyperbolic equation"),
-
+              
               withMathJax("$$t = \\frac{D'}{S - CS}$$"),  
-
+              
               HTML("where <code>t</code> is the performance time (s), <code>D'</code> is the curvature constant (m), <code>S</code> is the average speed (m/s), and
               <code>CS</code> is the critical speed (m/s).")
             ),
@@ -222,7 +231,8 @@ ui <- page_navbar(
         )
       )
     )
-  )
+  ),
+  nav_item(link_github)
 )
 
 
