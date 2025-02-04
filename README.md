@@ -27,11 +27,11 @@ where `t` is the performance time (s), `W'` is the curvature constant (Joules), 
 
 Two additional variables that are calculated in the application are:
 
-1. **5 minute Power** - An estimate of the power that can be sustained for 5 minutes.
-2. **20 minute Power** - An estimate of the power that can be sustained for 20 minutes.
+1. **5 minute Power** - An estimate of the highest power that can be sustained for 5 minutes.
+2. **20 minute Power** - An estimate of the highest power that can be sustained for 20 minutes.
 
 
-#### Running
+### Running
 The data are fit using a two parameter hyperbolic model according to the equation below:
 
 $$
@@ -42,10 +42,12 @@ where `t` is the performance time (s), `D'` is the curvature constant (m), `S` i
 
 Two additional variables that are calculated in the application are:
 
-1. **Mile** - An estimate of the best mile performance.
-2. **5,000m** - An estimate of the best mile performance.
+1. **Mile** - Estimated one mile performance.
+2. **5,000m** - Estimated 5K performance.
 
 
 ## Usage
 
-Upload data using the browse button (visitors can use the demo data). The first fitting point defaults to 6 seconds, but it should be adjusted to the first data point after time zero (exercise start) that is higher than the baseline. The first fitting point can be adjusted using the slider on the right.
+- Enter power and duration data for at least 3 performances.
+- Each performance can be either a time to exhaustion test at a constant power or a fixed distance time trial (e.g., 4 km). If using a fixed distance time trial, power may vary throughout the effort, so use the average power over the entire distance.
+- For the most accurate estimation of Critical Power and W Prime, choose performances lasting between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes would provide a better estimation than durations of 4, 6, and 8 minutes.
