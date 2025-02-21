@@ -1,4 +1,4 @@
-# Critical Power and Critical Speed Analysis Application
+# Critical Power and Critical Speed Calculator
 
 This repo contains the code used to build the analysis application.
 
