@@ -56,7 +56,7 @@ ui <- page_navbar(
               If using a fixed distance time trial, power may vary throughout the effort, so use the average power over the entire distance.
               <br><br>
               For the most accurate estimation of Critical Power and W Prime, choose performances lasting 
-              between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes would provide a better  
+              between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes will provide a better  
               estimation than durations of 4, 6, and 8 minutes.")
             ),
             class = "d-flex justify-content-between"

@@ -1,0 +1,12 @@
+name: critical_power_speed_calculator
+title: critical_power_speed_calculator
+username: timfulton
+account: timfulton
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14098819
+bundleId: 9855897
+url: https://timfulton.shinyapps.io/critical_power_speed_calculator/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
