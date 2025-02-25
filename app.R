@@ -55,7 +55,7 @@ ui <- page_navbar(
               Each performance can be either a time to exhaustion test at a constant power or a fixed distance time trial (e.g., 4 km). 
               If using a fixed distance time trial, power may vary throughout the effort, so use the average power over the entire distance.
               <br><br>
-              For the most accurate estimation of Critical Power and W Prime, choose performances lasting 
+              For the most accurate estimation of Critical Power and W', choose performances lasting 
               between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes will provide a better  
               estimation than durations of 4, 6, and 8 minutes.")
             ),
@@ -145,8 +145,8 @@ ui <- page_navbar(
               title = "Instructions",
               HTML("Enter distance and duration data for at least 3 performances. 
               <br><br>
-              For the most accurate estimation of Critical Speed and D Prime, choose performances lasting 
-              between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes would provide a better  
+              For the most accurate estimation of Critical Speed and D', choose performances lasting 
+              between ~3 and ~20 minutes, spread across this range. For example, durations of 5, 10, and 15 minutes will provide a better  
               estimation than durations of 4, 6, and 8 minutes.")
             ),
             class = "d-flex justify-content-between"
@@ -238,7 +238,7 @@ ui <- page_navbar(
       withMathJax("$$t = \\frac{W'}{P - CP}$$"), 
       
       HTML(markdown("
-      where `t` is the performance time (s), `W'` is the curvature constant (Joules), `P`is the performance power (W), and `CP` is the Critical Power (W). 
+      where ***t*** is the performance time (s), ***W'*** is the curvature constant (Joules), ***P*** is the performance power (W), and ***CP*** is the Critical Power (W). 
       
       Two additional variables that are calculated in the application are:
       
@@ -252,8 +252,8 @@ ui <- page_navbar(
       
       withMathJax("$$t = \\frac{D'}{S - CS}$$"),  
     
-      HTML(markdown("where <code>t</code> is the performance time (s), <code>D'</code> is the curvature constant (m), <code>S</code> is the average speed (m/s), and
-              <code>CS</code> is the critical speed (m/s).
+      HTML(markdown("where  ***t *** is the performance time (s),  ***D' *** is the curvature constant (m), ***S*** is the average speed (m/s), and
+               ***CS*** is the critical speed (m/s).
       
       Two additional variables that are calculated in the application are:
       
