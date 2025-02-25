@@ -18,10 +18,10 @@ The sustainable duration of exercise is dependent upon the intensity (i.e., powe
 The data are fit using a two parameter hyperbolic model according to the equation below:
 
 $$
-t = \frac{D'}{P - CP} \
+t = \frac{W'}{P - CP} \
 $$
 
-where `t` is the performance time (s), `W'` is the curvature constant (Joules), `P`is the performance power (W), and `CP` is the Critical Power (W). 
+where ***t*** is the performance time (s), ***W'*** is the curvature constant (Joules), ***P*** is the performance power (W), and ***CP*** is the Critical Power (W). 
 
 Two additional variables that are calculated in the application are:
 
@@ -36,7 +36,7 @@ $$
 t = \frac{D'}{S - CS} \
 $$
 
-where `t` is the performance time (s), `D'` is the curvature constant (m), `S` is the average speed (m/s), and `CS` is the critical speed (m/s).
+where ***t*** is the performance time (s), ***D'*** is the curvature constant (m), ***S*** is the average speed (m/s), and ***CS*** is the critical speed (m/s).
 
 Two additional variables that are calculated in the application are:
 
